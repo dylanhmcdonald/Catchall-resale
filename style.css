@@ -29,6 +29,13 @@ body {
   gap: 30px;
 }
 
+/* Make the text stack vertically next to the logo */
+.site-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* or 'center' if you want center alignment */
+}
+
 .site-header h1 {
   font-size: 26px;
   margin-bottom: 10px; /* space below the h1 */
@@ -45,6 +52,7 @@ body {
   font-size: 1.2em;
   font-weight: 300;
   color: white;
+  margin-top: 0;
 }
 
 .logo {
