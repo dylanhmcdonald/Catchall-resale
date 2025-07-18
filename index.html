@@ -1,39 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Catch All Resale</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catch All Resale</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="site-header">
-         <img src="logo.PNG" alt="Catch All Resale logo" class="logo">
-         <div class="site-title">
-          <h1>Catch All Resale</h1>
-          <p class="tagline">Giving items a second chance before they hit the landfill.</p>
-         </div>
-</header>
-    <main>
-        <section>
-            <h2>How It Works</h2>
-            <ol>
-                <li>You submit your item using the intake form</li>
-                <li>We quote you an instant price or donation option</li>
-                <li>We pick it up or you ship it in</li>
-                <li>We store, list, and resell it to new buyers</li>
-            </ol>
-        </section>
-        <section>
-            <h2>Submit Your Items</h2>
-            <p><a href="https://forms.gle/your-google-form-link" target="_blank">Use our intake form here</a></p>
-        </section>
-        <section>
-            <h2>Why Catch All?</h2>
-            <p>Read the founder’s story and mission to create a better way to buy and sell second-hand goods.</p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 Catch All Resale. All rights reserved.</p>
-    </footer>
+  <header class="navbar">
+    <div class="logo">Catch All Resale</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#testimonials">Testimonial</a>
+      <a href="#contact">More</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Effortless Reselling<br>and Eco-Conscious<br>Choices Await You!</h1>
+      <p>Your items deserve a second chance. Join us in sustainable reselling.</p>
+      <a href="#services" class="button">Start Selling</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://source.unsplash.com/featured/?happy,person,resale" alt="Happy seller" />
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://source.unsplash.com/featured/?shipping,logistics" alt="Shipping Service">
+        <h3>Shipping Service</h3>
+        <a href="#" class="button">Book Now</a>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/featured/?submission,technology" alt="Item Submission">
+        <h3>Item Submission</h3>
+        <a href="#" class="button">Book Now</a>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/featured/?forest,people" alt="Pickup Service">
+        <h3>Pickup Service</h3>
+        <a href="#" class="button">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="overview">
+    <h2>Overview</h2>
+    <div class="overview-content">
+      <p>At Catch All Resale, we provide innovative solutions for giving your items a second life before they head to landfills. Simply submit your items via our intake form and receive an instant quote.</p>
+      <p>We offer flexible options, including pickup or shipping, making the resale process convenient for you. Our team expertly stores, lists, and resells your items to new buyers.</p>
+    </div>
+    <a href="#" class="button">Learn More</a>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>Happy Clients</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <p><strong>Emily Johnson:</strong> "Selling my old furniture was effortless! Catch All Resale made it so easy!"</p>
+      </div>
+      <div class="testimonial">
+        <p><strong>Liam Patel:</strong> "I love how they focus on reusability! My items found new homes instead of the landfill!"</p>
+      </div>
+      <div class="testimonial">
+        <p><strong>Sophia Lee:</strong> "Great service! I turned unused clothes into cash without any hassle."</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="footer-top">
+      <div class="contact">
+        <p>Contact<br>Call</p>
+      </div>
+      <div class="address">
+        <p>456 Eco St, Green City,<br>USA</p>
+      </div>
+      <div class="social">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook" /></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Instagram" /></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/732/732200.png" alt="TikTok" /></a>
+      </div>
+      <div class="founder">
+        <img src="https://source.unsplash.com/featured/?business,woman" alt="Founder" />
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Catch All Resale. Powered by GitHub Pages.</p>
+    </div>
+  </footer>
 </body>
 </html>
