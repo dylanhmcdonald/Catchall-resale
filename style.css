@@ -31,8 +31,14 @@ body {
 
 .site-header h1 {
   font-size: 26px;
-  margin-bottom: 0.3em;
+  margin-bottom: 10px; /* space below the h1 */
   color: white;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #f1f1f1;
+  margin-top: 0;       /* optional: remove default space */
 }
 
 .site-header .tagline {
