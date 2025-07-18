@@ -8,23 +8,29 @@ body, h1, h2, p, ol, li, a {
 
 /* Body styling */
 body {
-  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  font-size: 18px; /* Increased from default */
   line-height: 1.6;
-  padding: 0;
+  background-color: #f5f5f5;
+  color: #222;
   margin: 0;
+  padding: 0;
 }
 
 /* Header section */
 .site-header {
-  background-color: #007f7f;
-  text-align: center;
-  padding: 30px 20px;
+  background-color: #00796b;
   color: white;
-  position: relative;
+  text-align: center;
+  padding: 20px 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
 .site-header h1 {
-  font-size: 2.5em;
+  font-size: 26px;
   margin-bottom: 0.3em;
   color: white;
 }
@@ -38,18 +44,16 @@ body {
 .logo {
   max-width: 100px;
   height: auto;
-  float: left;
-  margin: 15px 20px 15px 15px;
 }
 
 /* Main content */
 main {
-  padding: 30px 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: white;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  max-width: 800px; /* Wider than before */
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 40px;
   border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -57,9 +61,9 @@ section {
 }
 
 h2 {
-  color: #007f7f;
-  font-size: 1.5em;
-  margin-bottom: 0.6em;
+  font-size: 26px;
+  color: #00796b;
+  margin-top: 30px;
 }
 
 p, li {
