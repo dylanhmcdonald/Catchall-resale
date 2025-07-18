@@ -44,7 +44,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
+  margin-top: 20px;
   background-color: #e0f2f1;
   text-align: center;
 }
@@ -74,7 +75,8 @@ body {
 .button {
   background-color: #00796b;
   color: white;
-  padding: 12px 24px;
+  padding: 14px 28px;
+  font-size: 1.1rem;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -89,7 +91,7 @@ body {
 /* Services */
 .services {
   background-color: white;
-  padding: 60px 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -107,12 +109,17 @@ body {
 }
 
 .card {
-  background-color: #f0f0f0;
-  padding: 20px;
+  background-color: #ffffff;
+  padding: 30px;
   width: 300px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .card img {
@@ -128,7 +135,7 @@ body {
 
 /* Overview */
 .overview {
-  padding: 60px 20px;
+  padding: 100px 20px;
   background-color: #e0f7fa;
   text-align: center;
 }
@@ -149,7 +156,7 @@ body {
 /* Testimonials */
 .testimonials {
   background-color: white;
-  padding: 60px 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -172,6 +179,14 @@ body {
   width: 300px;
   border-radius: 8px;
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  font-style: italic;
+}
+
+.testimonial strong {
+  font-style: normal;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
 }
 
 /* Footer */
