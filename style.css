@@ -39,7 +39,7 @@ body {
 .site-header h1 {
   font-size: 26px;
   margin-bottom: 10px; /* space below the h1 */
-  color: white;
+  color: black;
 }
 
 .tagline {
@@ -51,7 +51,7 @@ body {
 .site-header .tagline {
   font-size: 1.2em;
   font-weight: 300;
-  color: white;
+  color: black;
   margin-top: 0;
 }
 
